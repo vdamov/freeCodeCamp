@@ -1,0 +1,57 @@
+body {
+        font-family: Arial;
+        color: #333;
+        line-height: 1.5;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #main {
+        margin: 30px 8px;
+        padding: 15px;
+        border-radius: 5px;
+        background: #eee;
+    }
+
+    #img-div {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    #img-div #image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img-div #img-caption {
+        margin: 15px 0 5px 0;
+    }
+
+    #tribute-info #headline {
+        margin: 50px 0;
+    }
+
+    #tribute-info ul {
+        margin: 0 auto 50px auto;
+        max-width: 550px;
+        text-align: left;
+    }
+
+    #tribute-info li {
+        margin: 15px 0;
+    }
+
+    #tribute-info blockquote {
+        max-width: 545px;
+        margin: 0 auto 50px auto;
+        font-style: italic;
+        text-align: left;
+    }
+
+    #tribute-info #tribute-link {
+        color: #74638f;
+    }
